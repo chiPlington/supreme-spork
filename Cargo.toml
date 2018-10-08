@@ -1,0 +1,7 @@
+[package]
+name = "prime_numbers"
+version = "0.1.0"
+authors = ["foxysocks"]
+
+[dependencies]
+text_io = "*"
