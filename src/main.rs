@@ -3,13 +3,25 @@
 
 fn main() {
 
-    println!("Give me a number");
-    let i: i32 = read!();
-    println!("Your number was {}", i);
-    
-    print!("Now enter some text!\n");
-    // reads until a \n is encountered
+    let c = 0;
+    let primes: Vec<u32> = Vec::new();   //list of primes
 
-    let line: String = read!("{}\r\n");
-    println!("{}", line);
+    println!("Give me a number");
+    let i: i32 = read!();  //read in user defined max number
+
+    for c in 0..i+1 {  //iterate from 0 to chosen number(i)
+        for d in 0..primes.len()+1 {
+            
+        }   
+        
+        
+    }    
+    
+    
+    
+    
+    
+    println!("There are {} prime numbers between 1 and {}", p, i);
+    
+    
 }
